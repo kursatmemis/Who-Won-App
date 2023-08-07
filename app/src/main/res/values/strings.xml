@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">KimKazandiApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="raffle_title">Raffle Title</string>
+    <string name="raffle_image">Raffle Image</string>
+    <string name="icon_image">Icon Image</string>
+    <string name="time_desc">Time Desc.</string>
+    <string name="icon_gift">Icon Gift</string>
+    <string name="gift_desc">Gift Desc.</string>
+    <string name="icon_price">Icon Price</string>
+    <string name="price_desc">Price Desc.</string>
+    <string name="iconTimeLink">https://www.kimkazandi.com/assets/img/icon/sandtimer.png</string>
+    <string name="iconGiftLink">https://www.kimkazandi.com/assets/img/icon/gift1.png</string>
+    <string name="iconPriceLink">https://www.kimkazandi.com/assets/img/icon/coin-tl.png</string>
+    <string name="BASE_URL">https://www.kimkazandi.com</string>
+    <string name="detail_activity_button_text_unf">Takibi Bırak</string>
+    <string name="detail_activity_button_text_follow">Takip Et</string>
+    <string name="splash_screen_desc">Verileriniz yükleniyor. Lütfen bekleyiniz. Bu işlem biraz zaman alabilir...</string>
+    <string name="loading_icon">loading-icon</string>
+</resources>

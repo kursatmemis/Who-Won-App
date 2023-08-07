@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Ana Sayfa"
+        android:id="@+id/homeFragment"/>
+    <item android:title="Yeni Başlayanlar"
+        android:id="@+id/yeniBaslayanlarFragment"/>
+    <item android:title="Bedava Katılım"
+        android:id="@+id/bedavaKatilimFragment"/>
+    <item android:title="Araba Kazan"
+        android:id="@+id/arabaKazanFragment"/>
+    <item android:title="Telefon Tablet Kazan"
+        android:id="@+id/telefonTabletKazanFragment"/>
+    <item android:title="Tatil Kazan"
+        android:id="@+id/tatilKazanFragment"/>
+    <item android:title="Takip Ettiklerim"
+        android:id="@+id/takipEttiklerimFragment"/>
+</menu>

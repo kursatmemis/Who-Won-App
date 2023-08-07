@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/yeniBaslayanlarFragment"
+        android:name="com.kursatmemis.kimkazandiapp.nav_fragments.YeniBaslayanlarFragment"
+        android:label="fragment_yeni_baslayanlar"
+        tools:layout="@layout/fragment_yeni_baslayanlar" />
+    <fragment
+        android:id="@+id/bedavaKatilimFragment"
+        android:name="com.kursatmemis.kimkazandiapp.nav_fragments.BedavaKatilimFragment"
+        android:label="fragment_bedava_katilim"
+        tools:layout="@layout/fragment_bedava_katilim" />
+    <fragment
+        android:id="@+id/arabaKazanFragment"
+        android:name="com.kursatmemis.kimkazandiapp.nav_fragments.ArabaKazanFragment"
+        android:label="fragment_araba_kazan"
+        tools:layout="@layout/fragment_araba_kazan" />
+    <fragment
+        android:id="@+id/telefonTabletKazanFragment"
+        android:name="com.kursatmemis.kimkazandiapp.nav_fragments.TelefonTabletKazanFragment"
+        android:label="fragment_telefon_tablet_kazan"
+        tools:layout="@layout/fragment_telefon_tablet_kazan" />
+    <fragment
+        android:id="@+id/tatilKazanFragment"
+        android:name="com.kursatmemis.kimkazandiapp.nav_fragments.TatilKazanFragment"
+        android:label="fragment_tatil_kazan"
+        tools:layout="@layout/fragment_tatil_kazan" />
+    <fragment
+        android:id="@+id/takipEttiklerimFragment"
+        android:name="com.kursatmemis.kimkazandiapp.nav_fragments.TakipEttiklerimFragment"
+        android:label="fragment_takip_ettiklerim"
+        tools:layout="@layout/fragment_takip_ettiklerim" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kursatmemis.kimkazandiapp.nav_fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>
